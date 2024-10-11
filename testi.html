@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link rel="stylesheet" href="public/stylesheets/testi.css">
+    <style>
+        body {
+            height: 150vh;
+            background-color: #000;
+        }
+
+        .swiper {
+            margin-right: 245px;
+            height: 400px;
+            width: 50%;
+        }
+
+        .swiper-slide {
+            background-color: #ffffff00;
+        }
+
+        .custom-pagination {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .custom-pagination-image {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+        }
+
+        .custom-pagination-quote {
+            position: absolute;
+            bottom: 20%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #bababa;
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+        }
+
+        .custom-pagination-quote em {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: #fff;
+            font-size: 60px;
+            line-height: 0;
+        }
+
+        .swiper-pagination-bullet {
+            width: auto;
+            height: auto;
+            background: none;
+            /* opacity: 0.5;
+            transition: opacity 0.3s; */
+        }
+
+        .swiper-pagination-bullet-active .custom-pagination-quote {
+            /* opacity: 1; */
+            background-color: #adff2f;
+        }
+
+        #testimonial_section {
+            position: relative;
+            padding-block: 4em 12em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="testimonial_section">
+
+        <div class="swiper testimonial">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="testimonial_details flex-col">
+                        <div class="testimonial_details_title flex-col">
+                            <div class="name_rating flex-row">
+                                <div class="client_name">Mariana Jack</div>
+                                <div class="client_rating flex-center flex-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="client_role">Founder & Ceo</div>
+                        </div>
+                        <hr>
+                        <div class="testimonial_details_desc">
+                            <p><em>"</em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, rerum
+                                explicabo
+                                sint
+                                facere
+                                deleniti delectus, distinctio atque, aliquam asperiores ex mollitia numquam nisi non
+                                similique
+                                quidem
+                                odit. Ad harum reprehenderit fugiat quia, consequatur modi<em>"</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial_details flex-col">
+                        <div class="testimonial_details_title flex-col">
+                            <div class="name_rating flex-row">
+                                <div class="client_name">Mariana Jack</div>
+                                <div class="client_rating flex-center flex-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="client_role">Founder & Ceo</div>
+                        </div>
+                        <hr>
+                        <div class="testimonial_details_desc">
+                            <p><em>"</em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, rerum
+                                explicabo
+                                sint
+                                facere
+                                deleniti delectus, distinctio atque, aliquam asperiores ex mollitia numquam nisi non
+                                similique
+                                quidem
+                                odit. Ad harum reprehenderit fugiat quia, consequatur modi<em>"</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial_details flex-col">
+                        <div class="testimonial_details_title flex-col">
+                            <div class="name_rating flex-row">
+                                <div class="client_name">Mariana Jack</div>
+                                <div class="client_rating flex-center flex-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#adff2f"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="client_role">Founder & Ceo</div>
+                        </div>
+                        <hr>
+                        <div class="testimonial_details_desc">
+                            <p><em>"</em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, rerum
+                                explicabo
+                                sint
+                                facere
+                                deleniti delectus, distinctio atque, aliquam asperiores ex mollitia numquam nisi non
+                                similique
+                                quidem
+                                odit. Ad harum reprehenderit fugiat quia, consequatur modi<em>"</em></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+
+
+        let swiper = new Swiper(".testimonial", {
+            slidesPerView: 1,
+            speed: 800,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+            },
+            // Pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                // dynamicBullets: true,
+                // dynamicMainBullets: 3,
+                renderBullet: function (index, className) {
+                    return `
+                <span class="${className}">
+                  <div class="custom-pagination">
+                    <img class="custom-pagination-image" src="man.jpg" alt="Slide ${index + 1}">
+                    <div class="custom-pagination-quote">
+                      <em>"</em>
+                    </div>
+                  </div>
+                </span>
+              `;
+                },
+            },
+
+            // Navigation arrows
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
+        });
+
+    </script>
+</body>
+
+</html>
