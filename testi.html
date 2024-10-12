@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="public/stylesheets/testi.css">
     <style>
         body {
-            height: 150vh;
             background-color: #000;
         }
 
@@ -85,7 +84,11 @@
 
 <body>
 
-    <section id="testimonial_section">
+    <section id="testimonial_section" class="testimonial_section">
+        <div class="testimonial_section_header">
+            <h1>Testimonials</h1>
+            <p>What's My Clients' Says About Me...</p>
+        </div>
 
         <div class="swiper testimonial">
             <!-- Additional required wrapper -->
@@ -248,7 +251,16 @@
             <div class="swiper-button-next"></div>
 
         </div>
+        <div class="button-cont flex-center"><a class="btn" href="testi-new.html">Explore more</a></div>
+        <div class="testimonial_section_header" style="padding-top: 10em;">
+            <h1>Video Testimonials</h1>
+        </div>
+        
+
     </section>
+
+
+    <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
@@ -256,7 +268,7 @@
 
         let swiper = new Swiper(".testimonial", {
             slidesPerView: 1,
-            speed: 800,
+            speed: 1200,
             spaceBetween: 10,
             loop: true,
             autoplay: {
